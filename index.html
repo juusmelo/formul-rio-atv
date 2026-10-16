@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição no Workshop</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Inscrição no Workshop </h1>
+        
+        <form>
+            <div class="form-control">
+                <label for="nome">Nome completo</label>
+                <input type="text" id="nome"/>
+            </div>
+
+            <div class="form-control">
+                <label for="email">E-mail para contato</label>
+                <input type="email" id="email"/>
+            </div>
+
+            <div class="form-control">
+                <label for="telefone">WhatsApp</label>
+                <input type="tel" id="telefone"/>
+            </div>
+
+            <div class="form-control">
+                <label for="data">Data de Nascimento</label>
+                <input type="date" id="data">
+            </div>
+
+            <div class="form-control">
+                <label for="senha">Crie uma senha de acesso</label>
+                <input type="password" id="senha"/>
+            </div>
+
+            <div class="form-control">
+                <label for="opcoes">Qual o seu nível atual?</label>
+                <select id="opcoes" required>
+                    <option value="">Selecione seu nível</option>
+                    <option value="iniciante">Iniciante (Começando do zero)</option>
+                    <option value="intermediario">Intermediário (Já tenho noção)</option>
+                    <option value="avancado">Avançado (Quero me aperfeiçoar)</option>
+                </select>
+            </div>
+
+            <div class="form-control">
+                <button type="submit" class="btn-cadastro">Garantir Minha Vaga</button>
+                <button type="reset" class="btn-limpar">Limpar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
